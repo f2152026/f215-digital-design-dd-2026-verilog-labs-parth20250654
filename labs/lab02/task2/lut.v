@@ -21,9 +21,8 @@ module lut #(
   // contents should be set up. (See the lab manual for why.)
   
   initial begin
-    for (i = 0; i < DEPTH; i = i + 1) begin
+    for (i = 0; i < DEPTH; i = i + 1) 
       mem[i] = i * i;
-    end
   end
 
 
